@@ -16,4 +16,5 @@ jobs:
           input-file: test/example.pkl
           output-folder: test/output
       - run: |
+          ls test/output
           cat test/output/generated/example.pkl.swift
