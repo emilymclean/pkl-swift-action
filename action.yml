@@ -13,7 +13,7 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.input-file }}
-    - ${{ inputs.output-file }}
+    - ${{ inputs.output-folder }}
 branding:
   icon: 'cpu'
   color: 'green'
