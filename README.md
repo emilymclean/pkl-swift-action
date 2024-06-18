@@ -1,6 +1,6 @@
 # PklSwift Action
 
-Generates swift source code for a Pkl model. Based on version 0.25.3 of the Pkl tool/lang.
+Generates swift source code for a Pkl model. Based on version 0.26.0 of the Pkl tool/lang.
 
 ## Inputs
 
