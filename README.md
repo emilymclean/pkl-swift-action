@@ -14,7 +14,7 @@ Generates swift source code for a Pkl model. Based on version 0.26.3 of the Pkl 
 
 ## Example usage
 ```
-uses: BenMMcLean/PklSwift@v1
+uses: emilymclean/PklSwift@v1
 with:
   input-file: data.pkl
   output-file: data.json
