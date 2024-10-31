@@ -1,22 +1,19 @@
-# PklSwift Action
-
-Generates swift source code for a Pkl model. Based on version 0.26.3 of the Pkl tool/lang.
+# pkl-swift-action
+Generates swift source code for a Pkl model.
 
 ## Inputs
 
-### `input-file`
-
-**Required** The Pkl model
-
-### `output-folder`
-
-**Required** Where the resulting data will be written to.
+| Input              	| Required 	| Description                                                                                                       	| Default  	|
+|--------------------	|----------	|-------------------------------------------------------------------------------------------------------------------	|----------	|
+| `input-file`       	| ✅        	| The data pkl file process                                                                                           |           |
+| `output-folder` 	  | ✅       	| Where the resulting binding will be written to.                                                        	            |    	      |
+| `pkl-version`      	|          	| The pkl version to use       	                                                                                      | 0.26.3    |
 
 ## Example usage
 ```
-uses: emilymclean/PklSwift@v1
+uses: emilymclean/pkl-swift-action@v2
 with:
   input-file: data.pkl
-  output-file: data.json
-  format: json
+  output-folder: /generated
 ```
+
