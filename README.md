@@ -5,9 +5,9 @@ Generates swift source code for a Pkl model.
 
 | Input              	| Required 	| Description                                                                                                       	| Default  	|
 |--------------------	|----------	|-------------------------------------------------------------------------------------------------------------------	|----------	|
-| `input-file`       	| ✅        	| The data pkl file process                                                                                           |           |
+| `input-file`       	| ✅        	| The pkl file(s) to process, separated by commas.                                                                    |           |
 | `output-folder` 	  | ✅       	| Where the resulting binding will be written to.                                                        	            |    	      |
-| `pkl-version`      	|          	| The pkl version to use       	                                                                                      | 0.26.3    |
+| `pkl-version`      	|          	| The pkl version to use       	                                                                                      | 0.27.0    |
 
 ## Example usage
 ```
